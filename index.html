@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Projeto valorant - Semana do zero ao programador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/icons8-valorant-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="responsivo.css">
+    </head>
+    <body>
+    <header class="cabecalho">
+        <img src="imagens/logo.png" alt="logo" class="logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        
+        <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+            <li class="personagem selecionado" id="jett" data-name="Jett" data-description="Representando sua terra natal da Coreia do Sul, Jett tem um estilo de luta agil e evasivo que permite que ela assuma riscos como ninguem">
+            <img
+                src="imagens/jett.png"
+                alt="personagem Jett"
+                class="card" 
+            />
+            </li>
+            <li class="personagem" id="killjoy" data-name="Killjoy" data-description="Killjoy, uma alemã genial, defende posições-chave no campo de batalha facilmente com seu arsenal de invenções">
+            <img
+                src="imagens/killjoy.png"
+                alt="Personagem killjoy"
+                class="card" 
+            />
+            </li>
+
+            <li class="personagem" id="chamber" data-name="Chamber" data-description="Bem vestido e armado até os dentes, o criador de armas francês Chamber coloca os inimigos para correr com precisão mortal.">
+            <img
+                src="imagens/chamber.png"
+                alt="Personagem chamber"
+                class="card"
+            />
+            </li>
+
+            <li class="personagem" id="neon" data-name="Neon" data-description="Neon, nossa Agente filipina, avança em velocidades incríveis, descarregando surtos de radiância bioelétrica tão rapidamente quanto seu corpo consegue gerá-los.">
+            <img
+                src="imagens/neon.png"
+                alt="Personagem neon"
+                class="card"
+            />
+            </li>
+
+            <li class="personagem" id="skye" data-name="Skye" data-description="Mandando um salve direto da Austrália, Skye e sua equipe de feras desbravam territórios hostis">
+            <img
+                src="imagens/skye.png"
+                alt="Personagem skye"
+                class="card"
+            />
+            </li>
+
+            <li class="personagem" id="viper" data-name="Viper" data-description="Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha">
+            <img
+                src="imagens/viper.png"
+                alt="Personagem viper"
+                class="card"
+            />
+            </li>
+
+                <li class="personagem" id="omen" data-name="Omen" data-description="Omen é considerado um personagem misterioso, já que suas origens são totalmente desconhecidas." >
+            <img
+                src="imagens/omen.png"
+                alt="Personagem omen"
+                class="card"
+            />
+            </li>
+
+            <li class="personagem" id="cypher" data-name="Cypher" data-description="Cypher, um vendedor de informações do Marrocos, é uma verdadeira rede de vigilância de um homem só que fica de olho em cada movimento dos inimigos.">
+            <img
+                src="imagens/cypher.png"
+                alt="Personagem cypher"
+                class="card"
+            />
+            </li>
+        </ul>
+        </section>
+        <section class="personagem-selecionado">
+        <img
+            class="personagem-grande"
+            src="imagens/card-jett.png"
+            alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+            <h2 class="nome-personagem" id="nome-personagem">Jett</h2>
+            <p class="descricao-personagem" id="descricao-personagem">
+                Representando sua terra natal da Coreia do Sul, Jett tem um estilo de luta agil e evasivo que permite que ela assuma riscos como ninguem.
+            </p>
+        </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+    </body>
+</html>
